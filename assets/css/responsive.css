@@ -1,0 +1,132 @@
+@media (min-width: 1025px) {
+  #header .mobile-categories {
+    display: none;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+  #header .mobile-categories {
+    display: none;
+  }
+  #nav > li:hover > a {
+    animation: none;
+  }
+}
+
+@media (max-width: 739px) {
+  .btn {
+    width: 100%;
+    padding: 13px 16px;
+  }
+
+  .m-center-text {
+    text-align: center !important;
+  }
+
+  .m-col-full {
+    width: 100%;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+  #nav {
+    display: block;
+  }
+
+  #nav > li {
+    display: block;
+    transition: none;
+    animation: none;
+  }
+
+  #nav li a {
+    display: block;
+    width: 100%;
+  }
+
+  #nav > li:hover > a {
+    animation: none;
+  }
+
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  #nav .subnav {
+    position: initial;
+    border-radius: 4px !important;
+    animation: none;
+  }
+
+  #nav .subnav li a {
+    background-color: rgb(105, 102, 102);
+    padding-left: 10px;
+  }
+
+  #nav .subnav a {
+    padding: 10px;
+    padding-left: 40px !important;
+  }
+
+  #header .searchbtn {
+    display: none;
+  }
+
+  .mobile-categories {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #slider .text-content .description {
+    margin-bottom: -10px;
+  }
+
+  #content .content-section {
+    padding: 50px 16px 40px 16px;
+  }
+
+  #content .content-section .about-text {
+    margin-bottom: 0;
+  }
+
+  #content .member-card {
+    padding-top: 20px;
+  }
+
+  #content .member-info {
+    padding-bottom: 25px;
+    width: 100%;
+  }
+
+  #content .member-info .image {
+    width: 60%;
+  }
+
+  #tour .ticket-status {
+    float: right;
+    margin-top: -5px;
+  }
+
+  #tour .place-list .place-card {
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .contact-box {
+    padding-top: 20px;
+  }
+
+  .contact-form {
+    margin-top: 16px;
+  }
+
+  .copyright {
+    font-size: 20px;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+}
